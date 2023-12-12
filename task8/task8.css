@@ -1,0 +1,134 @@
+body{
+    background-image:url(Wallpaper.png ) ;
+    background-size:cover;
+    font-family:  "lato", sans-serif;
+    align-items: center;
+}
+header{
+    padding: 10px;
+    margin-left: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+ul{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    list-style: none;
+    cursor: pointer;
+}
+li{
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    color: red;
+}
+#btn-signin{
+    border: 2px solid #fff;
+    background-color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    width: 85px;
+    height: 50px;
+    font-size:20;
+    margin-right:70px;
+
+}
+
+    
+.contaner{
+    margin: 10px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    visibility: hidden;
+}
+.contaner.active{
+    visibility: visible;
+}
+.cik{
+    background-image: url(wallpaper-web.png);
+    background-size: cover;
+    width: 500px;
+    height:350px;
+    border-radius: 10px;
+    border-top-right-radius: 0 ;
+    border-bottom-right-radius: 0;
+}
+.wellcome{
+    color:#fff;
+    font-weight: 600;
+    margin: 80px 30px;
+}
+h5{
+    color: pink;
+    font-weight: 500;
+    margin: 0 30px;
+    font-size:large;
+}
+.btn1{
+    background-color: #ff0582;
+    color: #fff;
+    margin: 40px 30px;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+.create{
+    display: block;
+    text-align: center;
+    width:400 ;
+    height: 350;
+    background-color: #fff;
+    border-radius: 10px;
+    border-top-left-radius: 0 ;
+    border-bottom-left-radius: 0;
+}
+.create img{
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+}
+h1{
+    color: #44066da9;
+}
+.inpt #c{
+    border: 2px solid #37044aa9;
+    border-radius: 50px;
+    width: 300;
+    height: 30px;
+    margin: 5px;
+   padding-left: 30px;
+   color: #6a087e86;
+}
+.btn2{
+    background-color: #2b0043;
+    color: #fff;
+    margin: 5px ;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+}
+.close-btn{
+    
+    width: 150px;
+    height: 20px;
+    background-color: #fff;
+    color: #ff0582;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 120px;
+}
